@@ -66,7 +66,8 @@ nav a {
                     align-items: center;
                     justify-content: space-between;
 }
-.banner-content{
+
+.banner-content {
                     width: 585px;
 
 }
@@ -97,11 +98,82 @@ nav a {
                     margin-bottom: 30px;
 
 }
+
 /* main section styles */
+main {
+                    max-width: 1140px;
+                    margin: 0 auto;
+}
+
 /* about section styles */
-.about{
-           padding: 130px;    
-           border-radius: 10px;
-           background: #FFF8F3;     
-           margin: 130px 0;
+.about {
+                    padding: 130px;
+                    text-align: center;
+                    border-radius: 10px;
+                    background: #FFF8F3;
+                    margin: 130px 0;
+}
+
+.about-info-container {
+                    display: flex;
+                    justify-content: space-between;
+
+}
+
+.section-title {
+                    color: #181818;
+                    text-align: center;
+                    font-size: 35px;
+                    font-weight: 700;
+}
+
+.section-description {
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    margin-bottom: 30px;
+                    width: 909px;
+                    text-align: center;
+}
+
+.info-title {
+                    color: #757575;
+                    text-align: center;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 10px;
+}
+
+.info-description {
+                    color: #474747;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 10px
+}
+
+#what-i-do-des {
+                    padding: 30px 150px;
+}
+
+.skill-continer {
+                    display: flex;
+                    gap: 24px;
+}
+
+.skill {
+                    padding: 30px;
+                    border-radius: 5px;
+                    background: #FFF;
+                    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+.skill-title{
+                   padding-top: 30px;         
+}
+.skill-description{
+color: #757575;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+width: 201px;
 }
